@@ -19,7 +19,7 @@ import pack.model.tableModelToko;
 
 /**
  *
- * @author adieb
+ * @author AhmadD
  */
 public class controllerToko {
     home hm;

@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author adieb
+ * @author AhmadD
  */
 public class c_koneksi {
     public static ResultSet executeQuery(String SQL) {

@@ -18,7 +18,7 @@ import pack.dao.implementToko;
 
 /**
  *
- * @author adieb
+ * @author AhmadD
  */
 public class login extends javax.swing.JFrame {
 
@@ -43,13 +43,13 @@ public class login extends javax.swing.JFrame {
         JOptionPane = new javax.swing.JOptionPane();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        txtpass = new javax.swing.JTextField();
         txtnama = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        txtpass = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -57,10 +57,8 @@ public class login extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(null);
 
-        jPanel2.setBackground(new java.awt.Color(6, 209, 254));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 0));
         jPanel2.setLayout(null);
-        jPanel2.add(txtpass);
-        txtpass.setBounds(40, 140, 350, 30);
         jPanel2.add(txtnama);
         txtnama.setBounds(40, 50, 350, 30);
 
@@ -101,6 +99,8 @@ public class login extends javax.swing.JFrame {
         });
         jPanel2.add(jButton1);
         jButton1.setBounds(230, 240, 160, 40);
+        jPanel2.add(txtpass);
+        txtpass.setBounds(40, 140, 340, 30);
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 0, 440, 340);
@@ -203,6 +203,6 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtnama;
-    private javax.swing.JTextField txtpass;
+    private javax.swing.JPasswordField txtpass;
     // End of variables declaration//GEN-END:variables
 }

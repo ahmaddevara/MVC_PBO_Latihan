@@ -25,7 +25,7 @@ import pack.control.controllerToko;
 import pack.model.m_toko;
 /**
  *
- * @author adieb
+ * @author AhmadD
  */
 public class home extends javax.swing.JFrame {
     controllerToko ctoko;
@@ -140,7 +140,7 @@ public class home extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(null);
 
-        jPanel2.setBackground(new java.awt.Color(84, 255, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 255, 255));
         jPanel2.setLayout(null);
 
         jLabel1.setText("Admin : ");
@@ -248,7 +248,7 @@ public class home extends javax.swing.JFrame {
         jPanel1.add(jPanel4);
         jPanel4.setBounds(530, 80, 350, 100);
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 102));
+        jPanel3.setBackground(new java.awt.Color(0, 255, 0));
         jPanel3.setLayout(null);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N

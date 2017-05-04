@@ -8,7 +8,7 @@ import java.util.List;
 import pack.model.m_toko;
 /**
  *
- * @author adieb
+ * @author AhmadD
  */
 public interface implementToko {
     public void TampilData(m_toko a);
